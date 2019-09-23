@@ -15,8 +15,9 @@ class String
   end
 
   def count_sentences
-    array = self.split(". ")
-    array.length
+    array = self.split(" ")
+    array.each do |element|
      binding.pry
+   end
   end
 end
