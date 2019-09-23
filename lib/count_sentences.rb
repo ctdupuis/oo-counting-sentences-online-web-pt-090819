@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     array = self.split(" ")
-    quiz = "This, well, is a sentence. This is too!! And so is this, I think? Woo...".split
+    quiz = "This, well, is a sentence. This is too!! And so is this, I think? Woo...".split(".")
     array.each do |element|
      binding.pry
    end
