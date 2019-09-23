@@ -18,6 +18,7 @@ class String
     array = self.split((/[.?!]/))
     array.delete_if{ |sent| sent.empty? }
     array.length
+    binding.pry
   end
   
 end
