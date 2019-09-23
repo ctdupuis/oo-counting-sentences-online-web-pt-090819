@@ -19,4 +19,5 @@ class String
     array.delete_if{ |sent| sent.empty? }
     array.length
   end
+  
 end
